@@ -1,0 +1,6 @@
+fp = open('c:/temp/data5.txt', 'w', encoding="utf-8")
+fp.write("%d\n" % 1)
+fp.write("PI = %.2f\n" % 3.14)
+fp.write("Hello LGNCS\n")
+fp.write("안녕 파이썬!")
+fp.close()
