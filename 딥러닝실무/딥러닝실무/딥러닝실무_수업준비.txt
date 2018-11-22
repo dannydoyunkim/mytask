@@ -1,0 +1,68 @@
+[ 중요 ]
+실습환경
+Anaconda download
+
+실습코드
+https://github.com/ghrms80/lecture_code
+
+[1일차]
+
+Linear Regression with ( Exercise - ToyotaCorolla 파일 )
+
+# 분석에 필요한 패키지 불러오기
+import numpy as np
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn import metrics
+import statsmodels.api as sm
+import scipy.stats as stats
+from statsmodels.stats import outliers_influence
+import itertools
+import time
+import matplotlib.pyplot as plt
+
+cf) statsmodels : 통계적인 라이브러리임
+
+
+pd.read_csv? 로 설정확인 가능함.
+
+
+
+[2일차 하기 전에 준비 사항]
+
+ModuleNotFoundError: No module named 'mglearn'
+--> 명령 프롬프트에서 하기 내용 입력
+
+1) 일반적으로 해결하기
+
+pip install mglearn
+
+2) conda에서 하기
+
+conda install mglearn    
+
+3) 직접 Lib 파일 받고 설치하기 (https://pypi.org/project/mglearn/) -> 압축풀기 -> 해당 경로로 이동하기 -> setup.py를 실행하면 됨
+
+python setup.py install 이라고 치면 됨.
+
+----> 다음으로 Jupyter notebook에서 Kernel -> restart로 Kernel 초기화를 한다.
+
+
+
+
+[ 2일차 ]
+Tensorflow
+---> https://playground.tensorflow.org  라는 사이트를 들어가면 각종 Example이 있음.
+
+
+## Tensorflow 설치하기
+Install Tensorflow at Anaconda Prompt
+
+pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org tensorflow
+
+pip install msgpack-python
+
+
+
+### Tensorflow API URL
+https://www.tensorflow.org/api_docs/
